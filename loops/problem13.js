@@ -6,12 +6,12 @@ Print this reverse triangle:
 **
 *
 */
-for (let i=1;i<=5;i++)
+for (let i=5;i>=1;i--)
 {
     let star ='';
-    for(let j=5;j>=1;j--)
+    for (let j=1;j<=i;j++)
     {
-        star ='*';
+        star +='*';
     }
     console.log(star);
 }
