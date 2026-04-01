@@ -1,0 +1,19 @@
+//Write a function with a default parameter: greet(name='friend') prints "Hello friend" if no name given.
+function greet (name)
+{
+    if (name)
+    {
+        return "hello " + name + "!";
+    }
+    else
+    {
+        return "hello friend!";
+    }
+}
+console.log(greet ("riswin"));
+//other method 
+function greet (name = "friend")
+{
+    return "hello "+ name + "!";
+}
+console.log(greet());
