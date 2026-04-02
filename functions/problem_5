@@ -1,5 +1,5 @@
 //Write a function with a default parameter: greet(name='friend') prints "Hello friend" if no name given.
-function greet (name)
+function greet1 (name)
 {
     if (name)
     {
@@ -10,7 +10,7 @@ function greet (name)
         return "hello friend!";
     }
 }
-console.log(greet ("riswin"));
+console.log(greet1 ("riswin"));
 //other method 
 function greet (name = "friend")
 {
